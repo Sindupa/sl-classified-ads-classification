@@ -15,7 +15,7 @@
       max-width: 800px;
       margin: 40px auto;
       padding: 20px;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: #f8f9fa;
       min-height: 100vh;
     }
 
@@ -23,7 +23,7 @@
       background: white;
       border-radius: 16px;
       padding: 40px;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
 
     h2 {
@@ -66,7 +66,7 @@
       padding: 12px 32px;
       margin-top: 16px;
       cursor: pointer;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: #4f46e5;
       color: white;
       border: none;
       border-radius: 8px;
@@ -89,7 +89,7 @@
       background: linear-gradient(135deg, #f6f8fb 0%, #e9ecef 100%);
       border-radius: 12px;
       margin-top: 24px;
-      border-left: 4px solid #667eea;
+      border-left: 4px solid #4f46e5;
       animation: slideIn 0.4s ease;
     }
 
@@ -108,6 +108,7 @@
       color: #2d3748;
       font-size: 20px;
       margin-bottom: 8px;
+      font-weight: normal;
     }
 
     .box .small {
@@ -141,21 +142,18 @@
 </head>
 <body>
   <div class="container">
-    <h2>🇱🇰 Sri Lankan Classified Ads Category Classifier</h2>
+    <h2>Sri Lankan Classified Ads Category Classifier</h2>
     <span class="small">Paste an advertisement (Sinhala/English/mixed) to predict its category.</span>
 
     <form method="POST" action="/predict">
-      <textarea name="text" placeholder="Ground Floor House for Rent in Colombo 9.">{{ text or "" }}</textarea>
+      <textarea name="text" placeholder="Example: ගම්පහ දෙමහල් නිවසක් විකිණීමට ඇත. 4 bedrooms, 2 Bathrooms.">{{ text or "" }}</textarea>
       <br/>
-      <button type="submit">Predict</button>
+      <button type="submit">Predict Category</button>
     </form>
 
     {% if prediction %}
       <div class="box">
         <h3>Predicted Category: {{ prediction }}</h3>
-        {% if nnz is not none %}
-          <span class="small">TF-IDF non-zero features (nnz): {{ nnz }}</span>
-        {% endif %}
       </div>
     {% endif %}
   </div>
