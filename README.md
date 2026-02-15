@@ -39,7 +39,3 @@ The project includes a Flask-based web application where users can:
 - Get predicted category instantly
 - Test Sinhala, English, or mixed input
 
-To run locally:
-
-```bash
-python app.py
