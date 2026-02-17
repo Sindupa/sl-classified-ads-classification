@@ -2,7 +2,7 @@
 
 A supervised machine learning project that automatically classifies Sri Lankan online classified advertisements into their correct categories using Natural Language Processing (NLP).
 
---
+
 
 ## 📌 Project Overview
 
@@ -10,7 +10,7 @@ This project builds a multi-class text classification system capable of predicti
 
 The system uses TF-IDF vectorization and machine learning algorithms to learn patterns from advertisement data and predict categories.
 
----
+
 
 ## 🧠 Problem Type
 
