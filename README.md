@@ -18,7 +18,7 @@ The system uses TF-IDF vectorization and machine learning algorithms to learn pa
 - Multi-class Classification  
 - Natural Language Processing (NLP)
 
----
+
 
 ## 🛠 Technologies Used
 
@@ -31,7 +31,7 @@ The system uses TF-IDF vectorization and machine learning algorithms to learn pa
 - Flask (Web Application)
 - HTML & CSS
 
----
+
 
 ## 🌐 Web Application
 
@@ -41,7 +41,7 @@ The project includes a Flask-based web application where users can:
 - Get predicted category instantly
 - Test Sinhala, English, or mixed input
 
----
+
 
 ## ⚙️ Installation & Setup
 
@@ -77,8 +77,6 @@ The project includes a Flask-based web application where users can:
   # Then open your browser and go to:
   http://127.0.0.1:5000
 ```
-
----
 
 ## 📂 Project Structure
 
