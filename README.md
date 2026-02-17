@@ -85,15 +85,19 @@ sl-classified-ads-classification/
 │
 ├── env/
 ├── notebooks/
-│     └── model.ipynb
+│    └── model.ipynb
 │    └── prediction.ipynb (for manual testing)
 ├── static/
-│     └── model/
+│    └── model/
 │       ├── tfidf.pkl
 │       ├── model.pkl
 │       └── label_encoder.pkl
+│       │
+│       └── corpora/            
+│           └── stopwords/
+│               └── english 
 ├── templates/
-│   └── index.html
+│     └── index.html
 ├── app.py
 ├── README.md
 └── requirements.txt
