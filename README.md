@@ -2,7 +2,7 @@
 
 A supervised machine learning project that automatically classifies Sri Lankan online classified advertisements into their correct categories using Natural Language Processing (NLP).
 
----
+--
 
 ## 📌 Project Overview
 
