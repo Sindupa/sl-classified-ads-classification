@@ -82,6 +82,7 @@ The project includes a Flask-based web application where users can:
 
 ## 📂 Project Structure
 
+```
 sl-classified-ads-classification/
 │
 ├── env/
@@ -98,7 +99,7 @@ sl-classified-ads-classification/
 ├── app.py
 ├── README.md
 └── requirements.txt
-
+```
 
 
 
