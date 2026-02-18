@@ -88,6 +88,7 @@ sl-classified-ads-classification/
 │    └── model.ipynb
 │    └── prediction.ipynb (for manual testing)
 ├── static/
+│    └── style.css
 │    └── model/
 │       ├── tfidf.pkl
 │       ├── model.pkl
